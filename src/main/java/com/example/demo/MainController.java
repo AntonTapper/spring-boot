@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.entities.User;
+import com.example.demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
