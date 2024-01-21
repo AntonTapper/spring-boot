@@ -28,10 +28,10 @@ public class HotelController {
         return hotel.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    /*@PostMapping
     public Hotel createHotel(@RequestBody Hotel hotel) {
         return hotelService.saveHotel(hotel);
-    }
+    }*/
 
     @PostMapping
     public ResponseEntity<String> createHotelWithImage(
